@@ -42,22 +42,27 @@
 
 
 ![error_loading_photo](Screenshots/imports.jpg)
+	
 	By looking at the imports we can find a lot but the most eye attractive is the network functionality which may indicate a possible RAT 
 
 
 ![error_loading_photo](Screenshots/strings.jpg)
+	
 	After looking at hard-coded strings we can see this registry entry which is used for persistence
 
 
 
 ![error_loading_photo](Screenshots/exports.jpg)
+	
 	Although it's a DLL Put there is no much info on the exports of it
 # basic Dynamic analysis:
+	
 	By Taking in the note of all the guidelines for running possible malware we can run the application and setup our monitoring tools to spot what is the behavior of the application on an infected machine 
 	we can use "runsll32.exe" in cmd to run dll by specifying the module we want to execute
 
 
 ![error_loading_photo](Screenshots/DETM.jpg)
+	
 	But we got an error that says the module is not found in the dll?!!! how can that happen we saw it with our eyes?!!!!
 	that may be an indicator of the use of "dynamic export table modification" which is a technique used by malware authors to change the moduke name at run time to evade static analysis.
 	For analyzing this technique we need to go to advanced dynamic analysis which will come later but now we need to go further in our basic analysis part and move to the next file extracted from the packet capture we got.
@@ -79,6 +84,7 @@
 
 
 ![error_loading_photo](Screenshots/net.jpg)
+	
 	So we can use dnspy to take a look at the source code but we will note that it's heavily obfuscated and exceeds the part of basic static analysis to the advanced one.
 
 

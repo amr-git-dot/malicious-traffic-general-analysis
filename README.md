@@ -2,13 +2,14 @@
 ###Sunnystation PCAP analysis :
 
 ##General analysis on the PCAP attached
+
 ##ENVIRONMENT:
-	LAN segment range: 172.16.0.0/24 (172.16.0.0 through 172.16.0.255)
-	Domain: sunnystation.com
-	Domain Controller: 172.16.0.52 - SUNNYSTATION-DC
-	File Server: 172.16.0.53 - SUNNYFILESERVER
-	LAN segment gateway: 172.16.0.1
-	LAN segment broadcast address: 172.16.0.255 
+	#LAN segment range: 172.16.0.0/24 (172.16.0.0 through 172.16.0.255)
+	#Domain: sunnystation.com
+	#Domain Controller: 172.16.0.52 - SUNNYSTATION-DC
+	#File Server: 172.16.0.53 - SUNNYFILESERVER
+	#LAN segment gateway: 172.16.0.1
+	#LAN segment broadcast address: 172.16.0.255 
 
 
 ##Start Point :
